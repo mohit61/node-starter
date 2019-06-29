@@ -2,8 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/api/
-hooks:
+    destination: /home/ubuntu/test
   AfterInstall:
     - location: scripts/npm-install.sh
       runas: root
